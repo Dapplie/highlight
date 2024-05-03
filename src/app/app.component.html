@@ -3,8 +3,10 @@
 <div class="search-input">
   <label for=""></label> <input [(ngModel)]="searchText" (input)="updateCount()" type="search">
  </div>
-
  <div class="number"><span style="font-weight: bold">{{ count }} posts</span> were found.</div>
+
+ <div class="text-contaniner title" [innerHtml]="text2 | highlighter:searchText:'full'"  ></div>
  <div class="text-contaniner" [innerHtml]="text | highlighter:searchText:'full'"  ></div>
+ 
 
 </div>

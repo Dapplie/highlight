@@ -1,7 +1,8 @@
-.text-contaniner{
-    height: 70vh;
-    overflow-y: scroll;
-  }
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
   .search-input{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -15,6 +16,7 @@
   }
   .all{
     width: 50em;
+    height: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding: 30px;
